@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        *{
+            margin:0 ;
+            padding:0;
+            font-family: sans-serif;
+        }
+        .hero{
+            position: relative;
+            width:100%;
+            height: 100vh;
+            background:black;
+        }
+        nav{
+            display:flex;
+            width:80%;
+            margin: auto;
+            padding: 5px ;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li{
+            display:inline-block;
+            list-style:none;
+            margin:10px 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+            font-weight:bolder;
+        }
+        nav ul li a:hover{
+            color:white;
+            background-color:red;
+            padding:10px;
+        }.detel{
+            margin-left:8%;
+            margin-top:15%;
+
+        }
+        .detel h1{
+            font-size:50px;
+            color:white;
+            margin-bottom:20px;
+        }
+        span{
+            color:orange;
+        }
+        .detel p{
+            color:grey;
+            line-height: 22px;
+        }
+        .detel a{
+            background:black;
+            padding:10px 18px;
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+            display:inline-block;
+            margin:30px 0;
+            border-radius:5px;
+        }
+        .boy{
+            width: 40%;
+            height: 70%;
+            position:absolute;
+            bottom:0;
+            right:80px;
+            padding:20px;
+            margin-top: 35%;
+        }
+        .down:hover{
+            color:white;
+            background:darkorange;
+            padding:10px;
+        }
+        .introduction{
+            color:red;
+            font-size:large;
+            margin: 2%;
+            margin-left: 15%;
+            margin-right: 15%;
+            text-align: center;
+            background:linear-gradient(rgb(90,166,255))
+            
+        }
+        .introduction p{
+            color:darkgrey;
+            margin-top: 15px;
+            text-decoration: wavy;
+        }
+        .introduction p:hover{
+            background-color: black;
+            color:white;
+        }
+        .introduction h1{
+            background-color: blueviolet;
+            padding:2px;
+            text-align: center;
+        }
+        .footer{
+            margin: 4px;
+            padding:0px;
+            color:white;
+            background-color: red;
+            text-align: center;
+            font:bold;
+        }
+        .socialmedia{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+        }
+        .socialmedia img{ 
+            margin-right: 2px;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+        }
+        .socialmedia img:hover {
+        animation-play-state: paused;
+        }
+        .LOGOIMAGE{
+        animation: blink 1s infinite;   
+        }
+        @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+        }
+        .project{
+            color:red;
+            font-size:large;
+            margin: 2%;
+            margin-left: 15%;
+            margin-right: 15%;
+            text-align: center;
+            background:linear-gradient(rgb(90,166,255))
+            
+        }
+        .project p{
+            color:darkorange;
+            margin-top: 15px;
+            text-decoration: wavy;
+        }
+        .project p:hover{
+            background-color: black;
+            color:white;
+        }
+        .project h1{
+            background-color: blueviolet;
+            padding:2px;
+            text-align: center;
+        }
+        .footer{
+            margin: 4px;
+            padding:0px;
+            color:white;
+            background-color: red;
+            text-align: center;
+            font:bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="LOGOIMAGE.png" class="logo" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Hire Me</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I, am<span> Yash Ratnaker</span></h1>
+            <p> This is my official portfolio website to shows all<br> details and work exiprins web development</p>
+            <a class="down" href="#">DOWNLOAD CV</a>
+        </div>
+        <div>
+            <img src="yash222.png" class="boy">
+        </div>
+    </div>
+    <div class="introduction">
+        <h1>INTRODUCTION</h1>
+        <p>
+            Yash Ratnaker is a highly motivated and talented<br> student currently pursuing a Bachelor's degree in Computer Science and Engineering (CSE) at Sage University. <br>
+            With a passion for web development, Yash has honed his skills in HTML, CSS, JavaScript, and other web technologies.
+             As a web developer, he thrives on transforming ideas into visually stunning and user-friendly websites. With a keen 
+             eye for detail and a strong problem-solving mindset, Yash approaches each project with dedication and creativity. His 
+             commitment to continuous learning and staying abreast of the latest industry trends ensures that he delivers cutting-edge
+              solutions. Yash's combination of technical expertise and a strong educational background makes him a promising talent in the field of web development.
+        </p>
+        <br>
+        <div class="socialmedia">
+            <b><a href="https://www.instagram.com/yash.ratnaker.07/"><img src="instagram.png" alt="instagram " width="15%" height="30%"></a></b>
+            <b><a href="https://www.linkedin.com/in/yash-ratnaker-a66910264/"><img src="linkdin.png" alt="instagram " width="20%" height="35%"></a></b>
+        </div>
+        
+
+    </div>
+    <div class="project">
+        <h1>PROJECT I WORKED ON..</h1>
+        <h2>TEXT TO SPEECH CONVERTOR</h2>
+        <p>
+            The Text to Speech Converter project allows users to enter text into a textarea provided in the user interface. When the "Convert to Speech" button is clicked, the project utilizes the Web Speech API to convert the entered text into speech. The converted speech is then played back to the user.
+            The user interface is designed using HTML and CSS, with a clean and intuitive layout. The container element holds the header, textarea, and convert button. The header displays the title of the project, which is "Text to Speech Converter." The textarea allows users to input the text they want to convert, and the convert button triggers the conversion process.
+        </p>
+        <h2>LANDING PAGE</h2>
+        <P>
+            The landing page for Siddhi Coaching Classes aims to provide an engaging and informative experience for students and parents seeking high-quality coaching and academic support. Siddhi Coaching Classes is a renowned educational institution committed to empowering students with knowledge, skills, and confidence to excel in their academic pursuits. The landing page serves as the gateway to showcase the institution's offerings and attract potential students.
+        </P>
+        
+    </div>
+    <div class="footer">
+        <footer class="footer">
+           <b><p>&copy;9340883428 yashratnaker30@gmail.com</p></b> 
+        </footer>
+    </div>
+    
+    
+</body>
+</html>
